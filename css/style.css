@@ -172,11 +172,7 @@ h1 {
   justify-content: space-around;
   align-items: flex-end;
   width: 49.5%;
-<<<<<<< HEAD
   height: 622px;
-=======
-  min-height: 622px;
->>>>>>> 06062a020f0dce26f4d3c1dda35429cefab0188b
   background-image: url("/img/work.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -966,14 +962,7 @@ h1 {
     margin-top: 57px;
     padding-bottom: 0;
   }
-<<<<<<< HEAD
   
-=======
-  /* .footer .h2-style{
-        margin-left: 29px;
-        margin-top: -5px;
-    } */
->>>>>>> 06062a020f0dce26f4d3c1dda35429cefab0188b
   .footer-center {
     margin-left: 29px;
     margin-top: 61px;
@@ -1002,7 +991,6 @@ h1 {
   }
   /* --footer-- */
 }
-<<<<<<< HEAD
   @media screen and (max-width: 768px) {
     .container-calculation{
       padding-bottom: 15%;
@@ -1203,10 +1191,58 @@ h1 {
      .right-block-p{
        font-size: 14px;
      }
+     .right-block-mb{
+       margin-bottom: 22px;
+     }
+     .btn-work{
+       margin-right: 7px;
+       padding:13px 45px;
+       font-size: 12px;
+     }
+     .btn-contract{
+       padding: 12px 30px;
+       font-size: 12px;
+     }
      /* --section-work */
-   } 
+     /* section-faq */
+     .section-faq{
+       padding-top: 51px;
+     }
+     .section-faq , .h2-style{
+       letter-spacing: -0.2px;
+     }
+     .h3-style{
+       font-size: 14px;
+     }
+     .btn-plus{
+       width: 30px;
+       height: 30px;
+     }
+     .btn-plus span{
+       width: 20px;
+     }
+     .faq-li:nth-child(1){
+      padding-top: 20px;
+      padding-bottom: 20px;
+     }
+     .faq-li:nth-child(2){
+      padding-top: 20px;
+      padding-bottom: 20px;
+     }
+     .faq-li:nth-child(3){
+      padding-top: 20px;
+      padding-bottom: 20px;
+     }
+     .faq-li:nth-child(4){
+      padding-top: 20px;
+      padding-bottom: 20px;
+     }
+     .faq-li:nth-child(5){
+      padding-top: 20px;
+      padding-bottom: 20px;
+     }
+     .faq-ul{
+       margin-bottom: 98px;
+     }
+     /* --section-faq-- */
 /* 1366, 1200, 992, 768. */
-=======
-
-/* 1366, 1200, 992, 768. */
->>>>>>> 06062a020f0dce26f4d3c1dda35429cefab0188b
