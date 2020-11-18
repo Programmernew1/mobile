@@ -1200,6 +1200,7 @@ h1 {
        margin-bottom: 22px;
      }
      .btn-work{
+       margin-bottom: 3px;
        margin-right: 7px;
        padding:13px 45px;
        font-size: 12px;
@@ -1297,6 +1298,7 @@ h1 {
        margin-left: 80px;
      }
      .text-checkbox{
+       display: block;
        margin-left: 25px;
      }
      .footer-nav{
