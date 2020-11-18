@@ -1045,11 +1045,11 @@ h1 {
      /* --header-- */
      /* section-calculation */
      .container-calculation{
-       min-height: 310px;
-       max-width: 290px;
+       min-height: 282px;
+       max-width: 92%;
        background-image: url("../img/320/calculation-bgc320.jpg");
-       background-size:contain;
-       background-position: 0 -45px;
+       /* background-size:contain; */
+       background-position: 0 -50px;
      }
      h1{
        text-align: center;
@@ -1060,15 +1060,20 @@ h1 {
      }
      .calculation-strong{
        margin-bottom: 0;
-       padding-left: 7px;
+       padding-left: 12px;
+       max-width: 487px;
+       
        text-align: center;
        font-size: 12px;
      }
      .btn-calculation{
        margin-top: 37px;
-       margin-left: 50px;
+       margin-left: 20%;
        padding: 11px 27px;
        font-size: 12px;
+     }
+     .section-calculation{
+       padding-bottom: 18px;
      }
      /* --section-calculation-- */
      /* section-AboutUs */
@@ -1077,7 +1082,7 @@ h1 {
      }
      .h2-style{
        margin-bottom: 4px;
-       margin-top: -9px;
+     
        margin-left: 0;
        font-size: 24px;
      }
@@ -1107,7 +1112,7 @@ h1 {
      .btn-AboutUs{
        margin-top: 11px;
        padding: 11px 41px;
-       width: 56%;
+       width: 161px;
        display: block;
        font-size: 12px;
        font-weight: 700;
@@ -1245,4 +1250,59 @@ h1 {
        margin-bottom: 98px;
      }
      /* --section-faq-- */
+     /* footer */
+     .footer-center{
+       margin-top: 40px;
+       margin-left: -2px;
+     }
+     .h2-style-footer{
+       font-size: 24px;
+     }
+     .footer-input, .footer-textarea{
+       width: 100%;
+       font-size: 14px;
+     }
+     .mb-h2{
+       margin-bottom: 24px;
+     }
+     .footer-textarea{
+       padding-top: 25px;
+       padding-bottom: 18px;
+     }
+     .btn-footer{
+       margin-bottom: 18px;
+       margin-top: 20px;
+       margin-left: 56px;
+       padding: 13px 30px;
+       font-size: 12px;
+     }
+     .label-checkbox{
+       position: relative;
+     }
+     .fake-span-checkbox{
+     top: 49px;
+     right: 247px;
+     }
+     .img-footer{
+       margin-left: 49px;
+       max-width: 131px;
+     }
+     .footer-img{
+       max-width: 34.4px;
+     }
+     .footer-img:not(:last-child){
+       margin-right: 14px;
+     }
+     .footer-left-sign{
+       margin-left: 80px;
+     }
+     .text-checkbox{
+       margin-left: 25px;
+     }
+     .footer-nav{
+       margin-top: -16px;
+     }
+    
+
+     /* --footer-- */
 /* 1366, 1200, 992, 768. */
