@@ -172,7 +172,7 @@ h1 {
   justify-content: space-around;
   align-items: flex-end;
   width: 49.5%;
-  height: 622px;
+  min-height: 622px;
   background-image: url("/img/work.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -635,7 +635,7 @@ h1 {
   }
   .content-left {
     width: 100%;
-    height: 640px;
+    min-height: 640px;
     margin-bottom: 45px;
   }
 
@@ -839,7 +839,7 @@ h1 {
 
   /* section-AboutUS */
   .content-left {
-    height: 650px;
+    min-height: 650px;
     background-image: url(../img/992/work768.png);
   }
 
@@ -895,7 +895,7 @@ h1 {
   /* section-work */
   .h2-style {
     margin-left: -4px;
-    min-width: 689px;
+    /* min-width: 689px; */
     letter-spacing: -0.4px;
   }
   .work-box {
@@ -997,20 +997,20 @@ h1 {
     }
     .bgi-1{
       background-size: 14%;
-    }
-    .bgi-2{
+    } 
+     .bgi-2{
       background-size: 14%;
     }
     .content-left-text{
       margin-left: 5px;
       margin-right: 0;
     }
-    .content-right-h3-2{
+    /* .content-right-h3-2{
       margin-left: 26px;
-    }
-    .section-faq,.h2-style{
+    } */
+    /* .section-faq,.h2-style{
       min-width: 100%;
-    }
+    } */
 
 
    @media screen and (max-width:576px){
@@ -1093,7 +1093,7 @@ h1 {
      .content-left{
        margin-bottom: 0;
        display: block;
-       max-height: 430px;
+      min-height: 431px;
        background-image: url("../img/320/work-320.png");
        background-size: 100%;
      }
@@ -1110,7 +1110,7 @@ h1 {
        font-size: 14px;
      }
      .btn-AboutUs{
-       margin-top: 11px;
+       margin-top: 12px;
        padding: 11px 41px;
        width: 161px;
        display: block;
@@ -1212,9 +1212,10 @@ h1 {
      /* --section-work */
      /* section-faq */
      .section-faq{
-       padding-top: 51px;
+       padding-top: 38px;
      }
      .section-faq , .h2-style{
+       min-width: 10px;
        letter-spacing: -0.2px;
      }
      .h3-style{
