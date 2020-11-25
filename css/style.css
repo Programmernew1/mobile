@@ -992,6 +992,11 @@ h1 {
   /* --footer-- */
 }
   @media screen and (max-width: 768px) {
+    
+    h1{
+      font-size: 30px;
+      margin-bottom: 26px;
+    }
     .container-calculation{
       padding-bottom: 15%;
     }
@@ -1004,6 +1009,19 @@ h1 {
     .content-left-text{
       margin-left: 5px;
       margin-right: 0;
+    }
+    .btn-calculation{
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    .section-AboutUs{
+      padding-top: 0;
+    }
+
+    .content-left-text{
+      
     }
     /* .content-right-h3-2{
       margin-left: 26px;
@@ -1068,7 +1086,7 @@ h1 {
      }
      .btn-calculation{
        margin-top: 37px;
-       margin-left: 20%;
+       /* margin-left: 20%; */
        padding: 11px 27px;
        font-size: 12px;
      }
@@ -1306,6 +1324,10 @@ h1 {
        margin-top: -16px;
      }
     
+
+     @media screen and (max-width:400px){
+
+     }
 
      /* --footer-- */
 /* 1366, 1200, 992, 768. */
