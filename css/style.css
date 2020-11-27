@@ -918,7 +918,15 @@ h1 {
   .h3-style {
     line-height: 1.4;
   }
-
+    .h2-style-faq{
+      margin-bottom: 22px;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: normal;
+      margin-left: -4px;
+      width: 103%;
+      letter-spacing: -0.6px;
+    }
   .faq-ul {
     margin-top: 38px;
   }
@@ -991,12 +999,9 @@ h1 {
   }
   /* --footer-- */
 }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     
-    h1{
-      font-size: 30px;
-      margin-bottom: 26px;
-    }
+   
     .container-calculation{
       padding-bottom: 15%;
     }
@@ -1006,23 +1011,12 @@ h1 {
      .bgi-2{
       background-size: 14%;
     }
-    .content-left-text{
-      margin-left: 5px;
-      margin-right: 0;
-    }
-    .btn-calculation{
-      position: relative;
-      left: 50%;
-      transform: translate(-50%, 0);
-    }
-
-    .section-AboutUs{
-      padding-top: 0;
-    }
-
-    .content-left-text{
-      
-    }
+   .h2-style-faq{
+     max-width: 689px;
+   }
+   .section-AboutUs{
+    padding-top: 0;
+  }
     /* .content-right-h3-2{
       margin-left: 26px;
     } */
@@ -1030,7 +1024,46 @@ h1 {
       min-width: 100%;
     } */
 
-
+    @media screen and (max-width: 650px){
+      h1{margin-bottom: 0;
+        font-size: 30px;
+        margin-bottom: 26px;
+      }
+      .btn-calculation{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+      .section-AboutUs{
+        padding-top: 0;
+      }
+      .content-left-text{
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 6px;
+      }
+      
+      .btn-AboutUs{
+        padding: 15px 30px;
+      }
+  
+      .content-right-h3-2{
+        padding-left: 30px;
+      }
+      .content-right-h3{
+        padding-left: 13px;
+      }
+      .bgi-1{
+        background-size: 14%;
+      } 
+       .bgi-2{
+        background-size: 14%;
+      }
+      .h2-style-footer{
+        text-align: center;
+      }
+      
+    }
    @media screen and (max-width:576px){
      /* header */
      .container{
@@ -1075,6 +1108,7 @@ h1 {
        font-size: 20px;
        padding-top: 30px;
        letter-spacing: 0;
+       margin-bottom: 11px;
      }
      .calculation-strong{
        margin-bottom: 0;
@@ -1099,11 +1133,18 @@ h1 {
        padding-top: 0;
      }
      .h2-style{
+      
        margin-bottom: 4px;
      
        margin-left: 0;
        font-size: 24px;
      }
+     .h2-style-faq{
+      margin-bottom: 4px;
+    letter-spacing: 0;
+      margin-left: 0;
+      font-size: 24px;
+    }
      .section-AboutUs-p{
        margin-bottom: 9px;
        font-size: 14px;
@@ -1205,6 +1246,7 @@ h1 {
        background-image: url("../img/320/img-work-320.png");
      }
      .section-work-h3{
+       padding-top: 2px;
        letter-spacing: -0.4px;
        font-size: 18px;
      }
@@ -1276,6 +1318,7 @@ h1 {
        margin-left: -2px;
      }
      .h2-style-footer{
+       text-align: inherit;
        font-size: 24px;
      }
      .footer-input, .footer-textarea{
@@ -1301,10 +1344,10 @@ h1 {
      }
      .fake-span-checkbox{
      top: 49px;
-     right: 247px;
+     right: 253px;
      }
      .img-footer{
-       margin-left: 49px;
+       margin-left: 0;
        max-width: 131px;
      }
      .footer-img{
@@ -1314,7 +1357,8 @@ h1 {
        margin-right: 14px;
      }
      .footer-left-sign{
-       margin-left: 80px;
+       justify-content: center;
+       margin-left: 0;
      }
      .text-checkbox{
        display: block;
@@ -1323,10 +1367,57 @@ h1 {
      .footer-nav{
        margin-top: -16px;
      }
-    
+     .form-footer{
+       text-align: center;
+     }
+     .footer-nav-img {
+       display: block;
+       text-align: center;
+      margin-left: 0;
+    }
 
-     @media screen and (max-width:400px){
-
+     @media screen and (max-width:320px){
+      /* footer */
+      .btn-footer{
+        margin-bottom: 18px;
+        margin-top: 20px;
+        margin-left: 56px;
+        padding: 13px 30px;
+        font-size: 12px;
+      }
+      .text-checkbox{
+        display: block;
+        margin-left: 25px;
+      }
+      .img-footer{
+        margin-left: 49px;
+        max-width: 131px;
+      }
+      .footer-left-sign{
+        margin-left: 0;
+      }
+      .footer-img{
+        max-width: 34.4px;
+      }
+      .footer-img:not(:last-child){
+        margin-right: 14px;
+      }
+      .fake-span-checkbox{
+        top: 49px;
+        right: 247px;
+        }
+      
+      .footer-nav{
+        margin-top: -16px;
+      }
+      .form-footer{
+        text-align: inherit;
+      }
+      .footer-nav-img{
+       margin-left: 31px;
+        display: flex;
+      }
+      /* --footer-- */
      }
 
      /* --footer-- */
