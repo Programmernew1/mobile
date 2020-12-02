@@ -120,11 +120,12 @@ h1 {
   color: #ffffff;
 }
 .calculation-strong {
+  font-weight: bold;
   max-width: 860px;
   margin-bottom: 101px;
   padding-left: 58px;
   line-height: 1.2;
-  display: inline-block;
+  /* display: inline-block; */
   color: #ffffff;
   font-size: 23.45px;
 }
@@ -598,7 +599,7 @@ h1 {
   /* section-calculation */
 
   .container-calculation {
-    max-width: 924px;
+   max-width: 926px;
     min-height: 665px;
     background-image: url(../img/1024/calcukation-bgc-1024.jpg);
     background-position: 0 -103px;
@@ -768,7 +769,7 @@ h1 {
   }
   .footer {
     padding-bottom: 73px;
-    margin-top: 60px;
+    margin-top: 114px;
   }
   .footer-nav-img {
     margin-left: 31px;
@@ -821,7 +822,9 @@ h1 {
   /* --header-- */
 
   /* section-calculation */
+
   .container-calculation {
+    max-width: 924px;
     background-image: url(../img/992/calculation-bgc768.jpg);
     background-position: 0 -72px;
     min-height: 696px;
@@ -1060,7 +1063,7 @@ h1 {
         background-size: 14%;
       }
       .h2-style-footer{
-        text-align: center;
+        text-align: inherit;
       }
       
     }
@@ -1169,6 +1172,9 @@ h1 {
        font-size: 14px;
      }
      .btn-AboutUs{
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
        margin-top: 12px;
        padding: 11px 41px;
        width: 161px;
@@ -1186,15 +1192,15 @@ h1 {
        letter-spacing: -0.4px;
      }
      .content-right-h3{
-       padding-top: 43px;
-       padding-left: 0;
+       padding-top: 130px;
+       /* padding-left: 0; */
        font-size: 18px;
        font-weight: 600;
        color: #333333;
      }
      .content-right-h3-2{
        margin-top: 0;
-       padding-top: 90px;
+       padding-top: 140px;
        padding-left: 0;
        margin-left: 0;
        font-size: 18px;
@@ -1202,25 +1208,27 @@ h1 {
        letter-spacing: -0.4px;
      }
      .content-right-p{
+       text-align: center;
        padding-bottom: 0;
        padding-left: 5px;
        font-size: 14px;
        letter-spacing: 0.1px;
      }
      .content-right-p2{
+       text-align: center;
        padding-bottom: 0;
        padding-left: 7px;
        font-size: 14px;
      }
      .bgi-1{
-       background-position: 0 10px;
+       background-position: center 60px;
        background-size: 22%;
      }
      .content-right-block2{
        border: none;
      }
      .bgi-2{
-       background-position: 0 20px;
+       background-position: center 20px;
        background-size: 22%;
       padding-left: 0;
      }
@@ -1346,6 +1354,9 @@ h1 {
      top: 49px;
      right: 253px;
      }
+     .fake-span-checkbox::before{
+       margin-left: -35%;
+     }
      .img-footer{
        margin-left: 0;
        max-width: 131px;
@@ -1370,13 +1381,68 @@ h1 {
      .form-footer{
        text-align: center;
      }
+     .h2-style-footer{
+      text-align: center;
+    } 
      .footer-nav-img {
        display: block;
        text-align: center;
       margin-left: 0;
     }
+  }
 
      @media screen and (max-width:320px){
+      .content-right-h3{
+        padding-top: 43px;
+        padding-left: 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #333333;
+      }
+      .content-right-h3-2{
+        margin-top: 0;
+        padding-top: 90px;
+        padding-left: 0;
+        margin-left: 0;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.4px;
+      }
+      .content-right-p{
+        text-align: inherit;
+        padding-bottom: 0;
+        padding-left: 5px;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+      }
+      .content-right-p2{
+        text-align: inherit;
+        padding-bottom: 0;
+        padding-left: 7px;
+        font-size: 14px;
+      }
+      .btn-AboutUs{
+        position: initial;
+        left: none;
+        transform: none;
+        margin-top: 12px;
+        padding: 11px 41px;
+        width: 161px;
+        display: block;
+        font-size: 12px;
+        font-weight: 700;
+        color: #FF9900;
+        border:2px solid #FF9900 ;  
+      }
+      .bgi-1{
+        background-position: 0 10px;
+        background-size: 22%;
+      }
+      .bgi-2{
+        background-position: 0 20px;
+        background-size: 22%;
+       padding-left: 0;
+      }
       /* footer */
       .btn-footer{
         margin-bottom: 18px;
@@ -1406,6 +1472,10 @@ h1 {
         top: 49px;
         right: 247px;
         }
+       .h2-style-footer{
+         text-align: inherit;
+         margin-left: 0;
+       } 
       
       .footer-nav{
         margin-top: -16px;
@@ -1416,6 +1486,9 @@ h1 {
       .footer-nav-img{
        margin-left: 31px;
         display: flex;
+      }
+      .fake-span-checkbox::before{
+        margin-left: 0;
       }
       /* --footer-- */
      }
