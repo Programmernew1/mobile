@@ -100,10 +100,12 @@ p {
   width: 100%;
   /* background-color: #E5E5E5;; */
 }
-.container-calculation {
+
+.container-bgi{
+  background-image: url("/img/calculation-bgc.jpg");
   max-width: 1770px;
   min-height: 620px;
-  background-image: url("/img/calculation-bgc.jpg");
+ 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -598,8 +600,8 @@ h1 {
   }
   /* section-calculation */
 
-  .container-calculation {
-   max-width: 926px;
+  .container-bgi {
+  
     min-height: 665px;
     background-image: url(../img/1024/calcukation-bgc-1024.jpg);
     background-position: 0 -103px;
@@ -823,8 +825,8 @@ h1 {
 
   /* section-calculation */
 
-  .container-calculation {
-    max-width: 924px;
+  .container-bgi {
+  
     background-image: url(../img/992/calculation-bgc768.jpg);
     background-position: 0 -72px;
     min-height: 696px;
@@ -1005,7 +1007,7 @@ h1 {
   @media screen and (max-width: 767px) {
     
    
-    .container-calculation{
+    .container-bgi{
       padding-bottom: 15%;
     }
     .bgi-1{
@@ -1098,16 +1100,17 @@ h1 {
      }
      /* --header-- */
      /* section-calculation */
-     .container-calculation{
+     .container-bgi{
        min-height: 282px;
-       max-width: 92%;
+     
        background-image: url("../img/320/calculation-bgc320.jpg");
        /* background-size:contain; */
        background-position: 0 -50px;
      }
      h1{
+       max-width: 100%;
        text-align: center;
-       margin-left: -8px;
+       margin-left: 0px;
        font-size: 20px;
        padding-top: 30px;
        letter-spacing: 0;
@@ -1115,9 +1118,10 @@ h1 {
      }
      .calculation-strong{
        margin-bottom: 0;
-       padding-left: 12px;
-       max-width: 487px;
-       
+       margin-left: 22px;
+      
+       max-width: 90%;
+       letter-spacing: -0.2px;
        text-align: center;
        font-size: 12px;
      }
@@ -1392,6 +1396,34 @@ h1 {
   }
 
      @media screen and (max-width:320px){
+
+      h1{
+        max-width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+        padding-top: 30px;
+        letter-spacing: 0;
+        margin-bottom: 11px;
+      }
+      .calculation-strong{
+        margin-bottom: 0;
+        margin-left: 22px;
+       
+        max-width: 246px;
+        letter-spacing: -0.2px;
+        text-align: center;
+        font-size: 12px;
+      }
+      .btn-calculation{
+        margin-top: 37px;
+        /* margin-left: 20%; */
+        padding: 11px 27px;
+        font-size: 12px;
+      }
+      .section-calculation{
+        padding-bottom: 18px;
+      }
       .content-right-h3{
         padding-top: 43px;
         padding-left: 0;
