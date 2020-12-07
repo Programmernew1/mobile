@@ -112,7 +112,7 @@ p {
 h1 {
   margin-bottom: 20px;
   padding-top: 104px;
-  padding-left: 56px;
+  padding-left: 76px;
   max-width: 900px;
   line-height: initial;
   letter-spacing: 0.95px;
@@ -125,7 +125,7 @@ h1 {
   font-weight: bold;
   max-width: 860px;
   margin-bottom: 101px;
-  padding-left: 58px;
+  padding-left: 76px;
   line-height: 1.2;
   /* display: inline-block; */
   color: #ffffff;
@@ -144,7 +144,7 @@ h1 {
   background: rgba(255, 153, 0, 0.6);
 }
 .ml80 {
-  margin-left: 60px;
+  margin-left: 76px;
 }
 
 /* --section-calculation-- */
@@ -404,6 +404,10 @@ h1 {
 .faq-li:last-child {
   border-bottom: 1px solid #cacaca;
 }
+.h2-style-faq{
+  font-size: 48px;
+  font-weight: normal;
+}
 .h3-style {
   width: 80%;
   padding-top: 10px;
@@ -598,6 +602,9 @@ h1 {
   .container {
     padding: 0 50px;
   }
+  .container-calculation{
+    padding: 0 50px;
+  }
   /* section-calculation */
 
   .container-bgi {
@@ -609,19 +616,19 @@ h1 {
   h1 {
     font-size: 60px;
     padding-left: 0;
-    margin-left: -5px;
+    margin-left: 42px;
     padding-top: 156px;
     margin-bottom: 10px;
   }
   .calculation-strong {
     margin-bottom: 111px;
-    margin-left: -5px;
+    margin-left: 45px;
     font-size: 20px;
     padding-left: 0;
     max-width: 780px;
   }
   .btn-calculation {
-    margin-left: -2px;
+    margin-left: 51px;
   }
 
   /* --section-calculation */
@@ -635,6 +642,11 @@ h1 {
   }
   .h2-style {
     margin-bottom: 27px;
+  }
+  .h2-style-faq{
+    font-size: 48px;
+    font-weight: normal;
+   
   }
   .content-left {
     width: 100%;
@@ -771,7 +783,7 @@ h1 {
   }
   .footer {
     padding-bottom: 73px;
-    margin-top: 114px;
+    margin-top: 86px;
   }
   .footer-nav-img {
     margin-left: 31px;
@@ -821,6 +833,9 @@ h1 {
     padding-top: 0;
     padding-bottom: 0;
   }
+  .container-calculation{
+    padding: 0 0 ;
+  }
   /* --header-- */
 
   /* section-calculation */
@@ -833,11 +848,11 @@ h1 {
   }
   h1 {
     padding-top: 187px;
-    margin-left: 0;
-    width: 106%;
+    margin-left: 47px;
+    width: 92%;
   }
   .calculation-strong {
-    margin-left: 0;
+    margin-left: 47px;
   }
 
   /* --section-calculation */
@@ -1005,7 +1020,16 @@ h1 {
   /* --footer-- */
 }
   @media screen and (max-width: 767px) {
-    
+    h1{
+     font-size: 30px;
+    }
+
+    .container{
+      padding: 0 15px;
+    }
+    .container-calculation{
+      padding: 0 50px;
+    }
    
     .container-bgi{
       padding-bottom: 15%;
@@ -1036,8 +1060,8 @@ h1 {
       }
       .btn-calculation{
         position: relative;
-        left: 50%;
-        transform: translate(-50%, 0);
+        left: inherit;
+        transform: inherit;
       }
       .section-AboutUs{
         padding-top: 0;
@@ -1046,6 +1070,9 @@ h1 {
         font-size: 13px;
         margin-left: 5px;
         margin-right: 6px;
+      }
+      .container-calculation{
+        padding: 0 15px;
       }
       
       .btn-AboutUs{
@@ -1072,6 +1099,9 @@ h1 {
    @media screen and (max-width:576px){
      /* header */
      .container{
+       padding: 0 15px;
+     }
+     .container-calculation{
        padding: 0 15px;
      }
      .btn-search{
@@ -1110,7 +1140,7 @@ h1 {
      h1{
        max-width: 100%;
        text-align: center;
-       margin-left: 0px;
+       margin-left: 20px;
        font-size: 20px;
        padding-top: 30px;
        letter-spacing: 0;
@@ -1125,12 +1155,16 @@ h1 {
        text-align: center;
        font-size: 12px;
      }
+    
      .btn-calculation{
-       margin-top: 37px;
-       /* margin-left: 20%; */
-       padding: 11px 27px;
-       font-size: 12px;
-     }
+      margin-top: 37px;
+      margin-left: 0px;
+      padding: 11px 27px;
+      font-size: 12px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
      .section-calculation{
        padding-bottom: 18px;
      }
@@ -1398,6 +1432,7 @@ h1 {
      @media screen and (max-width:320px){
 
       h1{
+        width: inherit;
         max-width: 100%;
         text-align: center;
         margin-left: 0px;
@@ -1417,9 +1452,11 @@ h1 {
       }
       .btn-calculation{
         margin-top: 37px;
-        /* margin-left: 20%; */
+        margin-left: 60px;
         padding: 11px 27px;
         font-size: 12px;
+        transform: inherit;
+        left: inherit;
       }
       .section-calculation{
         padding-bottom: 18px;
