@@ -31,6 +31,11 @@ p {
   margin-right: auto;
 }
 /* header */
+
+/* slyder */
+
+/* --slyder-- */
+
 .burger-box {
   display: none;
 }
@@ -39,6 +44,7 @@ p {
   z-index: 5;
   box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
+
 .header-container {
   padding-top: 12px;
   padding-bottom: 11px;
@@ -100,12 +106,17 @@ p {
   width: 100%;
   /* background-color: #E5E5E5;; */
 }
-
+.swiper-slide{
+  background-image: url("/img/calculation-bgc.jpg");
+  max-width: 1770px;
+  min-height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container-bgi{
   background-image: url("/img/calculation-bgc.jpg");
   max-width: 1770px;
   min-height: 620px;
- 
   background-repeat: no-repeat;
   background-size: cover;
 }
