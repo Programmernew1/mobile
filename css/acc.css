@@ -1,0 +1,26 @@
+/* #accordeon {
+	width: 350px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 10px grey;
+	margin: 10px;
+} */
+
+.acc-head {
+	display:flex;
+	justify-content: space-between;
+	padding-top: 28px;
+    padding-bottom: 44px;
+    border-top: 1px solid #cacaca;
+}
+.click-accordion{
+	
+
+}
+
+
+.acc-body {
+	font-weight: normal;
+    font-size: 16px;
+	margin-bottom: 5px;
+	display: none;
+}
