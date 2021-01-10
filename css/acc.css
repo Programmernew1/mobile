@@ -12,15 +12,13 @@
     padding-bottom: 44px;
     border-top: 1px solid #cacaca;
 }
-.click-accordion{
-	
-
-}
-
 
 .acc-body {
 	font-weight: normal;
     font-size: 16px;
 	margin-bottom: 5px;
 	display: none;
+}
+.nnn{
+	width: 0px !important;
 }

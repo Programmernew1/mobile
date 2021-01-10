@@ -20,3 +20,8 @@ var mySwiper = new Swiper('.swiper-container', {
       el: '.swiper-scrollbar',
     },
   })
+
+document.querySelector('.burger-box').onclick =function(){
+  document.querySelector('.burger-menu').classList.toggle('burger-menu-active')
+}; 
+

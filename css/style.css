@@ -21,6 +21,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 p {
   margin: 0;
 }
@@ -35,6 +36,13 @@ p {
 /* slyder */
 
 /* --slyder-- */
+
+.burger-menu{
+  display: none;
+}
+.burger-menu-active{
+  display: block ;
+}
 
 .burger-box {
   display: none;
@@ -137,13 +145,7 @@ p {
   background-size: cover;
 }
 
-.container-bgi{
-  /* background-image: url("/img/calculation-bgc.jpg"); */
-  /* max-width: 1770px;
-  min-height: 620px;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
+
 h1 {
   margin-bottom: 20px;
   padding-top: 104px;
@@ -387,6 +389,9 @@ h1 {
 /* --section-work-- */
 
 /* section-faq */
+.acc{
+  display: none;
+}
 .section-faq {
   padding-top: 103px;
 }
@@ -1594,8 +1599,5 @@ h1 {
       .fake-span-checkbox::before{
         margin-left: 0;
       }
+    }
       /* --footer-- */
-     }
-
-     /* --footer-- */
-/* 1366, 1200, 992, 768. */
