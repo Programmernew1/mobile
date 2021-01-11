@@ -4,7 +4,7 @@ var mySwiper = new Swiper('.swiper-container', {
   
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.swiper-pagination',  /* точки переключения */
       clickable:true,    /*нажимаешь на слайд - он переключается */ 
       hideOnClick:true,  /* переключение слайда при нажатии на точку*/ 
     },
@@ -19,6 +19,8 @@ var mySwiper = new Swiper('.swiper-container', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+
+    loop:true,
   })
 
 document.querySelector('.burger-box').onclick =function(){

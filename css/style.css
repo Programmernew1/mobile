@@ -34,11 +34,18 @@ p {
 /* header */
 
 /* slyder */
-
+ .swiper-button-prev , .swiper-button-next{
+  visibility: hidden;
+}
 /* --slyder-- */
 
 .burger-menu{
+  font-size: 18px;
   display: none;
+  text-align: center;
+}
+.burger-menu a:hover {
+  color: red;
 }
 .burger-menu-active{
   display: block ;
