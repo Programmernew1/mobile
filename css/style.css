@@ -34,6 +34,28 @@ p {
 /* header */
 
 /* slyder */
+.swiper-button-next , .swiper-button-prev  {
+  color: #666666 !important ;
+}
+.swiper-button-next:hover,.swiper-button-prev:hover {
+  color: #FF9900 !important;
+}
+.swiper-button-next:active, .swiper-button-prev:active{
+  color:#E1670E !important;
+}
+
+ .swiper-pagination-bullet{
+  width: 15px !important;
+  height: 15px !important;
+  opacity: 9 !important ;
+  
+}
+.swiper-pagination-bullet-active{
+  background:gray !important;
+}
+.color-white{
+  background:#ffffff;
+}
 
 /* --slyder-- */
 
