@@ -34,6 +34,7 @@ p {
 /* header */
 
 /* slyder */
+<<<<<<< HEAD
 .swiper-button-next , .swiper-button-prev  {
   color: #666666 !important ;
 }
@@ -57,10 +58,20 @@ p {
   background:#ffffff;
 }
 
+=======
+ .swiper-button-prev , .swiper-button-next{
+  visibility: hidden;
+}
+>>>>>>> 8472a2907a9dfc02331c4fd511620abdce7e2f36
 /* --slyder-- */
 
 .burger-menu{
+  font-size: 18px;
   display: none;
+  text-align: center;
+}
+.burger-menu a:hover {
+  color: red;
 }
 .burger-menu-active{
   display: block ;
